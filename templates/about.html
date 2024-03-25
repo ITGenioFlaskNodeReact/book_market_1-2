@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>О сайте</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Главная</a></li>
+            <li><a href="{{ url_for('books') }}">Книги</a></li>
+            <li><a href="{{ url_for('about') }}">О сайте</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="title" align="center">О сайте</h1>
+    <div class="content">
+        <p>Сайт разработан компанией Айтигенио в образовательных целях</p>
+    </div>
+</body>
+</html>
